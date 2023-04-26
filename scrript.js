@@ -12,6 +12,7 @@ function cap(){
                  var final = a+b+c+d+e+f;
                  document.getElementById("capt").value=final;
 }
+cap();
                //document.getElementById("fg").onclick=validcap();
                function validcap(){
                 var stg1 = document.getElementById('capt').value;
@@ -21,6 +22,7 @@ function cap(){
                   return true;
                 }else{
                   alert("Please enter a valid captcha");
+                    cap();
                   return false;
                 }
                }
